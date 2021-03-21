@@ -2,6 +2,7 @@
 
 A Deep Linking system is effectively a URL shortener that redirects based on configuration and requester attributes, such as operating system. An API+SDK is used to provide the same user experience even if the app/game wasn't installed yet. Fingerprinting, tracking, and analytics are used throughout the process.
 
+I've done by best given my limited knowledge. Deep Linking is a topic I'll continue to learn about in the coming days.
 
 # Solution
 
@@ -26,7 +27,9 @@ Shown with 3 web servers, databases, etc. For 100M+ users there would be many mo
 
 ## Example Flow
 
-I've done by best to provide a solution without oversimplifying. Deep Linking is a topic I'll continue to learn more about in the coming days.
+![](sequence.png)
+
+### Example Flow in Details
 
 1. A 3rd Party app development studio creates a Deep Link using our platform
     * They provide URLs for iOS, Android, and Desktop
@@ -63,10 +66,10 @@ I've done by best to provide a solution without oversimplifying. Deep Linking is
 * Data: redirect URLs. Other data as needed for tracking, analytics, etc
 
 
-### Users + URL
+### Users + app
 
-* short-lived data. Tuple of UserID + URL, needed when "passing" a URL to an app after installation
-* We could decided to keep this data for analytics billing purposes (ie: a free tier that allows 10,000 requests, after which the customer is charged)
+* short-lived data. Tuple of UserID + app (could be domain from URL), needed when "passing" a URL to an app after installation
+* We could decided to keep this data for analytics or billing purposes (ie: a free tier that allows 10,000 requests, after which the customer is charged)
 
 
 # Risks
@@ -78,4 +81,4 @@ I've done by best to provide a solution without oversimplifying. Deep Linking is
 
 ## Disclaimer
 
-While I have been designing scalable, high-performance systems for many years, it has been a long time since I dabbled in iOS/Android development. I researched what I could given the time I had. Given more time and (and great co-workers) I know I would strive to become an expert in this field as well.
+I am not an expert in Deep Linking. Any code or instructions in this repo are provided AS-IS with absolutely not warranty either expressed or implied. You are using these materials at your own risk.

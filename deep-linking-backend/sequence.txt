@@ -1,0 +1,14 @@
+# https://sequencediagram.org/
+
+
+User->Web Server: Clicks a deep link
+Web Server->database (urls): Lookup by URL
+Web Server<-database (urls): Entry
+Web Server->Web Server: Select URL based on\nuser fingerprint
+User<-Web Server: 302 redirect to app store
+Web Server->database (users): Record access
+
+User->User: installs app\nopens app
+User->database (users): Request URL specific to this user + app
+User<-database (users): Full URL
+User->User: Desired app behaviour\n(ie: join game lobby)

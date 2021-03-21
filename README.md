@@ -5,4 +5,4 @@ Each folder contains an assignment
 
 ## Advice
 
-I don't use any of this
+What does a stranger on GitHub know? Don't use any of this

@@ -36,6 +36,7 @@ Shown with 3 web servers, databases, etc. For 100M+ users there would be many mo
     * Optionally they provide a custom short URL, which our service checks for uniqueness
     * Otherwise our service provides a random-looking short URL, taken from a list of known-available IDs
     * An entry is created in our database, with the public (short) URL as the key
+    * Optional data such as advertisement campaign, etc will be captured at this step
     * The link is now ready to use
 
 1. A user visits the link

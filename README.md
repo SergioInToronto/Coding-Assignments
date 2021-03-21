@@ -1,1 +1,8 @@
-Each folder contains an assignment. You're free to do as you please, but I don't recommend using any of this code
+# Assignments
+
+Each folder contains an assignment
+
+
+## Advice
+
+I don't use any of this

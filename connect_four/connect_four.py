@@ -8,9 +8,9 @@ import copy
 
 token_at_position = [
     [None, None, None, None, None, None],
-    ["red", None, None, None, None, None],
     [None, None, None, None, None, None],
-    ["red", None, None, None, None, None],
+    [None, None, None, None, None, None],
+    [None, None, None, None, None, None],
     [None, None, None, None, None, None],
     [None, None, None, None, None, None],
     [None, None, None, None, None, None],
